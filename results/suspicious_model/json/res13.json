@@ -1,0 +1,25 @@
+{
+  "image_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\dataset\\suspicious-model-1\\test\\images\\OIP (1).jpg",
+  "model_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\models\\suspicious_model4\\weights\\best.pt",
+  "raw_score": 0.5506172204657906,
+  "score_0_9": 3,
+  "detections": [
+    {
+      "class": "victim",
+      "conf": 0.5452562570571899,
+      "xyxy": [
+        148.71575927734375,
+        93.91625213623047,
+        328.52362060546875,
+        308.2125549316406
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "class": "victim",
+      "conf": 0.5452562570571899,
+      "contrib": 0.5506172204657906
+    }
+  ]
+}

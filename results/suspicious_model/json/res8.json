@@ -1,0 +1,100 @@
+{
+  "image_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\dataset\\suspicious-model-1\\test\\images\\vd4_MP4-0049_jpg.rf.b64c9f476d567f5d6bc04046dfb870e1.jpg",
+  "model_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\models\\suspicious_model4\\weights\\best.pt",
+  "raw_score": 0.8715591444493844,
+  "score_0_9": 8,
+  "detections": [
+    {
+      "class": "victim",
+      "conf": 0.8183926939964294,
+      "xyxy": [
+        70.66146850585938,
+        213.45240783691406,
+        171.87100219726562,
+        633.30322265625
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.7960577607154846,
+      "xyxy": [
+        447.2587890625,
+        134.68112182617188,
+        513.799072265625,
+        453.8999328613281
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.7499872446060181,
+      "xyxy": [
+        283.99273681640625,
+        87.3446044921875,
+        336.76153564453125,
+        360.41229248046875
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.6738159656524658,
+      "xyxy": [
+        360.94451904296875,
+        217.4287109375,
+        437.55499267578125,
+        543.5623779296875
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.6066147685050964,
+      "xyxy": [
+        234.24131774902344,
+        69.35992431640625,
+        293.4979248046875,
+        361.91192626953125
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.5205565094947815,
+      "xyxy": [
+        302.98046875,
+        184.04345703125,
+        369.680908203125,
+        391.006591796875
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "class": "victim",
+      "conf": 0.8183926939964294,
+      "contrib": 0.3396082339101216
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.7960577607154846,
+      "contrib": 0.14448600983017135
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.7499872446060181,
+      "contrib": 0.09234417279690238
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.6738159656524658,
+      "contrib": 0.1438577205076028
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.6066147685050964,
+      "contrib": 0.0898588654420568
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.5205565094947815,
+      "contrib": 0.061404141962529364
+    }
+  ]
+}

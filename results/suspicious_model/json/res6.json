@@ -1,0 +1,40 @@
+{
+  "image_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\dataset\\suspicious-model-1\\test\\images\\vd1_MOV-0002_jpg.rf.daa3d1381dcb5fe3efbdd88470e1c46e.jpg",
+  "model_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\models\\suspicious_model4\\weights\\best.pt",
+  "raw_score": 0.8850207147124666,
+  "score_0_9": 8,
+  "detections": [
+    {
+      "class": "victim",
+      "conf": 0.8387987017631531,
+      "xyxy": [
+        368.10992431640625,
+        189.62257385253906,
+        497.06005859375,
+        640.0
+      ]
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.8150357007980347,
+      "xyxy": [
+        223.5554962158203,
+        200.4981231689453,
+        357.27398681640625,
+        640.0
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "class": "victim",
+      "conf": 0.8387987017631531,
+      "contrib": 0.4757252536391975
+    },
+    {
+      "class": "suspicious-suspect",
+      "conf": 0.8150357007980347,
+      "contrib": 0.4092954610732691
+    }
+  ]
+}
