@@ -1,0 +1,40 @@
+{
+  "image_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\dataset\\suspicious-model-1\\test\\images\\vd2_mp4-0306_jpg.rf.db3d13598030c48e16dfff331c64d24b.jpg",
+  "model_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\models\\suspicious_model4\\weights\\best.pt",
+  "raw_score": 5.156372129917145,
+  "score_0_9": 3,
+  "detections": [
+    {
+      "class": "weapon",
+      "conf": 0.4646187424659729,
+      "xyxy": [
+        313.04339599609375,
+        167.3529052734375,
+        479.3116455078125,
+        529.0274658203125
+      ]
+    },
+    {
+      "class": "weapon",
+      "conf": 0.3947766125202179,
+      "xyxy": [
+        326.98455810546875,
+        230.1097412109375,
+        463.13055419921875,
+        496.93170166015625
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "class": "weapon",
+      "conf": 0.4646187424659729,
+      "contrib": 2.7877124547958374
+    },
+    {
+      "class": "weapon",
+      "conf": 0.3947766125202179,
+      "contrib": 2.3686596751213074
+    }
+  ]
+}

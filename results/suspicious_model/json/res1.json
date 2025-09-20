@@ -1,0 +1,40 @@
+{
+  "image_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\dataset\\suspicious-model-1\\test\\images\\Criminal-Offence-Caught-on-Cctv-Cam-1_mp4-0001_jpg.rf.3dfd06a6ba8d0235744afdc627c1f477.jpg",
+  "model_path": "C:\\Users\\rohan_075b4dd\\OneDrive\\Desktop\\sih\\models\\suspicious_model4\\weights\\best.pt",
+  "raw_score": 0.2734482171946249,
+  "score_0_9": 0,
+  "detections": [
+    {
+      "class": "normal-action",
+      "conf": 0.861086905002594,
+      "xyxy": [
+        261.6883239746094,
+        1.8037109375,
+        406.9206848144531,
+        587.2928466796875
+      ]
+    },
+    {
+      "class": "normal-action",
+      "conf": 0.8152667284011841,
+      "xyxy": [
+        128.31475830078125,
+        7.20916748046875,
+        266.02801513671875,
+        602.0587768554688
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "class": "normal-action",
+      "conf": 0.861086905002594,
+      "contrib": 0.14300764723180268
+    },
+    {
+      "class": "normal-action",
+      "conf": 0.8152667284011841,
+      "contrib": 0.13044056996282224
+    }
+  ]
+}
